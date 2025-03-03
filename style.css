@@ -2,11 +2,11 @@ body {
     font-family: Arial, sans-serif;
     background-color: purple;
     margin: 0;
-    padding: 20px;
+    padding: 40px;
     display: flex;
     justify-content: center;
     height: 100vh;
-    color: rgb(213, 64, 227); /
+    color: #c5b0c7; /
 }
 
 h2 {
