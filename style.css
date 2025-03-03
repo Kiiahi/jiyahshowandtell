@@ -7,7 +7,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    color: white; /* Optional: to make text readable on purple background */
+    color: rgb(213, 64, 227); /
 }
 
 h2 {
