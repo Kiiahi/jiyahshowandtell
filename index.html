@@ -4,21 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Show and Tell</title>
+    <script>
+        function showAlert(message) {
+            alert(message);
+        }
+    </script>
 </head>
 <body>
     <h2>SHOW&TELL 2.4</h2>
     <p>
       Within module 2.4 I learned about 
       <ol>
-        <li>Control flow</li>
+        <li onclick="showAlert('Control flow: the order in which the computer executes statements in script.')">Control flow</li>
         <p>the order in which the computer executes statements in script.</p>
-        <li>Conditional statements</li>
+        <li onclick="showAlert('Conditional statements: a statement which depends on whether a condition is true or false.')">Conditional statements</li>
         <p>a statement which depends on whether a condition is true or false.</p>
-        <li>Loops & scopes</li>
+        <li onclick="showAlert('Loops & scopes: A Loop sets the condition that allows for code statements to be repeated. A Scope is the part of the program where a variable, function, or object can be accessed.')">Loops & scopes</li>
         <p>A Loop sets the condition that allows for code statements to be repeated.<br>
            A Scope is the part of the program where a variable, function, or object can be accesed.
         </p>
-        <li>Logical & Assignment Operators</li>
+        <li onclick="showAlert('Logical & Assignment Operators: Logical operators are used to determine the logic between variables and values; Assignment operators assign value to JavaScript variables.')">Logical & Assignment Operators</li>
+        <p>While Logical operators are use the determine the logic between <br>
+         variables and value ; Assignment operators assign value to JavaScript variables.</p>
       </ol>
 
 
