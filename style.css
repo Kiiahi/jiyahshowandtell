@@ -12,6 +12,7 @@ body {
 
 h2 {
     color: #fff;
+    justify-content: baseline;
 }
 
 p {
